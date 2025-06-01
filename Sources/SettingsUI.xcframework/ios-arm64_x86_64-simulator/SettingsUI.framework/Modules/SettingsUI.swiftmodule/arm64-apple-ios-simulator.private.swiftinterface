@@ -34,6 +34,10 @@ public enum AccentColorTint : Swift.String, Swift.CaseIterable, Swift.Codable, S
   case mint
   case teal
   case blush
+  public func color() -> SwiftUICore.Color
+  public func localized() -> SwiftUICore.LocalizedStringKey
+  public func label(currentAccent: SettingsUI.AccentColorTint) -> some SwiftUICore.View
+  
   public init?(rawValue: Swift.String)
   public typealias AllCases = [SettingsUI.AccentColorTint]
   public typealias ID = SettingsUI.AccentColorTint
@@ -52,6 +56,8 @@ public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.
   case Dark
   case Light
   case System
+  public func image() -> SwiftUICore.Image
+  public func text() -> SwiftUICore.LocalizedStringKey
   public init?(rawValue: Swift.String)
   public typealias AllCases = [SettingsUI.Appearance]
   public typealias ID = SettingsUI.Appearance
@@ -88,6 +94,18 @@ extension SwiftUICore.View {
   
 }
 public struct SettingsNavLinkLabel {
+  public static func appearance(currentAppearance: SettingsUI.Appearance) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public struct manageTags : SwiftUICore.View {
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp", 0) __
+  }
+  public static func accentColor(currentAccent: SettingsUI.AccentColorTint) -> some SwiftUICore.View
+  
+  public static func recentlyDeleted() -> some SwiftUICore.View
+  
 }
 
 public struct URLLink : Swift.Identifiable {
@@ -110,4 +128,5 @@ extension SettingsUI.Appearance : Swift.Hashable {}
 extension SettingsUI.Appearance : Swift.RawRepresentable {}
 extension SettingsUI.AppearancePicker : Swift.Sendable {}
 extension SettingsUI.PreferredColorScheme : Swift.Sendable {}
+extension SettingsUI.SettingsNavLinkLabel.manageTags : Swift.Sendable {}
 extension SettingsUI.URLLinkView : Swift.Sendable {}

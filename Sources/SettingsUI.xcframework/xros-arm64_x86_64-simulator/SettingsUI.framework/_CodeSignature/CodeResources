@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		Ugc784745yOmzHhqeB/hEx+6XqA=
+		+GgjEFKOVagsWt+QwAMnp+uuTfE=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		9yauMmRc6Gl4lgBgBgymqJcgEjA=
+		hjwjUyj+jKmn6qa8QZd8T3WjGeU=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		9yauMmRc6Gl4lgBgBgymqJcgEjA=
+		hjwjUyj+jKmn6qa8QZd8T3WjGeU=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		Za0z88C2QRnenlTPva3PP31tNSU=
+		wR1AFSRcXCiF2nYO3IaM3NmqW2U=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		Ugc784745yOmzHhqeB/hEx+6XqA=
+		+GgjEFKOVagsWt+QwAMnp+uuTfE=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		9Q9pnlPQamjeF5ZGZ7/wZ0XtE6M=
+		3oHzLkAvTESGat9X6Wsmbb/pNxc=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		9Q9pnlPQamjeF5ZGZ7/wZ0XtE6M=
+		3oHzLkAvTESGat9X6Wsmbb/pNxc=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		jJSb/xp0csUXagUM+3ZXCnCpkQ4=
+		sehLUgxfxvwJm5KRDsy57AfPEMM=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGTFtclaGsRvSV3P3DZzAAjTCZxxRtv4XiEM+5ot3GA=
+			6qJdv1KBjjMlu4k8okJS9F3Cg1P4n4HkRcrpeZn6vns=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0joRAC4EariMHnK1G1/MskEPh+lnp/svLnKTIXLLSFE=
+			PTEff2dpwLoawJV3V+6bvBSdm0yUl9tfBiJnVsL4AUI=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
@@ -94,28 +94,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0joRAC4EariMHnK1G1/MskEPh+lnp/svLnKTIXLLSFE=
+			PTEff2dpwLoawJV3V+6bvBSdm0yUl9tfBiJnVsL4AUI=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Js++W6s5OhA4LIWerQWL/9X0y7qfrttLtJqHa6sJ1M=
+			0h23sscGBGtLhGCNLv4/nvQNDFgqBlCPPh/XNpY8/p0=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HGTFtclaGsRvSV3P3DZzAAjTCZxxRtv4XiEM+5ot3GA=
+			6qJdv1KBjjMlu4k8okJS9F3Cg1P4n4HkRcrpeZn6vns=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iZbZu0qAeS5f5dIcGcEIFwJIcZacawmmwrXr9MHf/Ko=
+			RdR3oEzv/C0kx6F16m11K3hfpKWPUzxJynBNiVA7aCI=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iZbZu0qAeS5f5dIcGcEIFwJIcZacawmmwrXr9MHf/Ko=
+			RdR3oEzv/C0kx6F16m11K3hfpKWPUzxJynBNiVA7aCI=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			odk3ulG4yVjAP1VpOMET9fI1aM6HLhK/EewxPdVLYkk=
+			+87xHcxVnTmE5uq24ZFsZVhkvo5M+Q5grdPFAAyzZGk=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

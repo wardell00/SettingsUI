@@ -15,6 +15,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AccentColorManager",
         "printedName": "AccentColorManager",
@@ -706,6 +716,82 @@
             "moduleName": "SettingsUI"
           },
           {
+            "kind": "Function",
+            "name": "color",
+            "printedName": "color()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI15AccentColorTintO5color05SwiftB00D0VyF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO5color05SwiftB00D0VyF",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localized",
+            "printedName": "localized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI15AccentColorTintO9localized05SwiftB018LocalizedStringKeyVyF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO9localized05SwiftB018LocalizedStringKeyVyF",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "label",
+            "printedName": "label(currentAccent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI.AccentColorTint",
+                "usr": "s:10SettingsUI15AccentColorTintO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI15AccentColorTintO5label07currentC0QrAC_tF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO5label07currentC0QrAC_tF",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -1130,6 +1216,48 @@
             "usr": "s:10SettingsUI10AppearanceO6SystemyA2CmF",
             "mangledName": "$s10SettingsUI10AppearanceO6SystemyA2CmF",
             "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI10AppearanceO5image05SwiftB05ImageVyF",
+            "mangledName": "$s10SettingsUI10AppearanceO5image05SwiftB05ImageVyF",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI10AppearanceO4text05SwiftB018LocalizedStringKeyVyF",
+            "mangledName": "$s10SettingsUI10AppearanceO4text05SwiftB018LocalizedStringKeyVyF",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -1859,6 +1987,234 @@
         "kind": "TypeDecl",
         "name": "SettingsNavLinkLabel",
         "printedName": "SettingsNavLinkLabel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "appearance",
+            "printedName": "appearance(currentAppearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SettingsUI.Appearance",
+                "usr": "s:10SettingsUI10AppearanceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI0A12NavLinkLabelV10appearance17currentAppearanceQrAA0H0O_tFZ",
+            "mangledName": "$s10SettingsUI0A12NavLinkLabelV10appearance17currentAppearanceQrAA0H0O_tFZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "manageTags",
+            "printedName": "manageTags",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp",
+                "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp",
+                "moduleName": "SettingsUI",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvg",
+                    "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvg",
+                    "moduleName": "SettingsUI",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV",
+            "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "accentColor",
+            "printedName": "accentColor(currentAccent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI.AccentColorTint",
+                "usr": "s:10SettingsUI15AccentColorTintO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI0A12NavLinkLabelV11accentColor13currentAccentQrAA0iG4TintO_tFZ",
+            "mangledName": "$s10SettingsUI0A12NavLinkLabelV11accentColor13currentAccentQrAA0iG4TintO_tFZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recentlyDeleted",
+            "printedName": "recentlyDeleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SettingsUI0A12NavLinkLabelV15recentlyDeletedQryFZ",
+            "mangledName": "$s10SettingsUI0A12NavLinkLabelV15recentlyDeletedQryFZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:10SettingsUI0A12NavLinkLabelV",
         "mangledName": "$s10SettingsUI0A12NavLinkLabelV",
@@ -2124,16 +2480,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "View",
         "printedName": "View",
@@ -2223,6 +2569,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/WrapHStack\/WrapHstack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 2,
+      "value": "10"
+    },
+    {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/AccentColor\/AccentColorManager.swift",
       "kind": "StringLiteral",
       "offset": 187,
@@ -2270,13 +2623,6 @@
       "offset": 1051,
       "length": 13,
       "value": "\"Google Link\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/WrapHStack\/WrapHstack.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 2,
-      "value": "10"
     }
   ]
 }
