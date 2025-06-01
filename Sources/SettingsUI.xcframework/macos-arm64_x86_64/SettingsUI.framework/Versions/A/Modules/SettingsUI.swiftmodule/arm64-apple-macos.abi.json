@@ -1,0 +1,2282 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SettingsUI",
+    "printedName": "SettingsUI",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SettingsNavLinkLabel",
+        "printedName": "SettingsNavLinkLabel",
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI0A12NavLinkLabelV",
+        "mangledName": "$s10SettingsUI0A12NavLinkLabelV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLLink",
+        "printedName": "URLLink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI7URLLinkV2id10Foundation4UUIDVvp",
+            "mangledName": "$s10SettingsUI7URLLinkV2id10Foundation4UUIDVvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI7URLLinkV2id10Foundation4UUIDVvg",
+                "mangledName": "$s10SettingsUI7URLLinkV2id10Foundation4UUIDVvg",
+                "moduleName": "SettingsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI7URLLinkV",
+        "mangledName": "$s10SettingsUI7URLLinkV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLLinkView",
+        "printedName": "URLLinkView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvp",
+            "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvg",
+                "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI11URLLinkViewV",
+        "mangledName": "$s10SettingsUI11URLLinkViewV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccentColorManager",
+        "printedName": "AccentColorManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appstorageKey",
+            "printedName": "appstorageKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI18AccentColorManagerV13appstorageKeySSvpZ",
+            "mangledName": "$s10SettingsUI18AccentColorManagerV13appstorageKeySSvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI18AccentColorManagerV13appstorageKeySSvgZ",
+                "mangledName": "$s10SettingsUI18AccentColorManagerV13appstorageKeySSvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentAccentColor",
+            "printedName": "currentAccentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI.AccentColorTint",
+                "usr": "s:10SettingsUI15AccentColorTintO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvpZ",
+            "mangledName": "$s10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvgZ",
+                "mangledName": "$s10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvsZ",
+                "mangledName": "$s10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvsZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvMZ",
+                "mangledName": "$s10SettingsUI18AccentColorManagerV07currentcD0AA0cD4TintOvMZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI18AccentColorManagerV",
+        "mangledName": "$s10SettingsUI18AccentColorManagerV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccentColorThemePicker",
+        "printedName": "AccentColorThemePicker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI22AccentColorThemePickerV4bodyQrvp",
+            "mangledName": "$s10SettingsUI22AccentColorThemePickerV4bodyQrvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI22AccentColorThemePickerV4bodyQrvg",
+                "mangledName": "$s10SettingsUI22AccentColorThemePickerV4bodyQrvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI22AccentColorThemePickerV",
+        "mangledName": "$s10SettingsUI22AccentColorThemePickerV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccentColorTint",
+        "printedName": "AccentColorTint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI.AccentColorTint",
+                "usr": "s:10SettingsUI15AccentColorTintO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI15AccentColorTintO2idACvp",
+            "mangledName": "$s10SettingsUI15AccentColorTintO2idACvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI15AccentColorTintO2idACvg",
+                "mangledName": "$s10SettingsUI15AccentColorTintO2idACvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultBlue",
+            "printedName": "defaultBlue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO11defaultBlueyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO11defaultBlueyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "red",
+            "printedName": "red",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO3redyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO3redyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "green",
+            "printedName": "green",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO5greenyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO5greenyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "yellow",
+            "printedName": "yellow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO6yellowyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO6yellowyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "pink",
+            "printedName": "pink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO4pinkyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO4pinkyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "purple",
+            "printedName": "purple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO6purpleyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO6purpleyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "mint",
+            "printedName": "mint",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO4mintyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO4mintyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "teal",
+            "printedName": "teal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO4tealyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO4tealyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "blush",
+            "printedName": "blush",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.AccentColorTint.Type) -> SettingsUI.AccentColorTint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.AccentColorTint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI15AccentColorTintO5blushyA2CmF",
+            "mangledName": "$s10SettingsUI15AccentColorTintO5blushyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SettingsUI.AccentColorTint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SettingsUI15AccentColorTintO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10SettingsUI15AccentColorTintO8rawValueACSgSS_tcfc",
+            "moduleName": "SettingsUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI15AccentColorTintO8rawValueSSvp",
+            "mangledName": "$s10SettingsUI15AccentColorTintO8rawValueSSvp",
+            "moduleName": "SettingsUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI15AccentColorTintO8rawValueSSvg",
+                "mangledName": "$s10SettingsUI15AccentColorTintO8rawValueSSvg",
+                "moduleName": "SettingsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SettingsUI.AccentColorTint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI15AccentColorTintO8allCasesSayACGvpZ",
+            "mangledName": "$s10SettingsUI15AccentColorTintO8allCasesSayACGvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI.AccentColorTint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI15AccentColorTintO8allCasesSayACGvgZ",
+                "mangledName": "$s10SettingsUI15AccentColorTintO8allCasesSayACGvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10SettingsUI15AccentColorTintO",
+        "mangledName": "$s10SettingsUI15AccentColorTintO",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI.AccentColorTint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccentColorTint",
+                        "printedName": "SettingsUI.AccentColorTint",
+                        "usr": "s:10SettingsUI15AccentColorTintO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Appearance",
+        "printedName": "Appearance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SettingsUI.Appearance",
+                "usr": "s:10SettingsUI10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI10AppearanceO2idACvp",
+            "mangledName": "$s10SettingsUI10AppearanceO2idACvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI10AppearanceO2idACvg",
+                "mangledName": "$s10SettingsUI10AppearanceO2idACvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Dark",
+            "printedName": "Dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.Appearance.Type) -> SettingsUI.Appearance",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.Appearance.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SettingsUI.Appearance",
+                        "usr": "s:10SettingsUI10AppearanceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI10AppearanceO4DarkyA2CmF",
+            "mangledName": "$s10SettingsUI10AppearanceO4DarkyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "Light",
+            "printedName": "Light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.Appearance.Type) -> SettingsUI.Appearance",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.Appearance.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SettingsUI.Appearance",
+                        "usr": "s:10SettingsUI10AppearanceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI10AppearanceO5LightyA2CmF",
+            "mangledName": "$s10SettingsUI10AppearanceO5LightyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "System",
+            "printedName": "System",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SettingsUI.Appearance.Type) -> SettingsUI.Appearance",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SettingsUI.Appearance.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SettingsUI.Appearance",
+                        "usr": "s:10SettingsUI10AppearanceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10SettingsUI10AppearanceO6SystemyA2CmF",
+            "mangledName": "$s10SettingsUI10AppearanceO6SystemyA2CmF",
+            "moduleName": "SettingsUI"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SettingsUI.Appearance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SettingsUI10AppearanceO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10SettingsUI10AppearanceO8rawValueACSgSS_tcfc",
+            "moduleName": "SettingsUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI10AppearanceO8rawValueSSvp",
+            "mangledName": "$s10SettingsUI10AppearanceO8rawValueSSvp",
+            "moduleName": "SettingsUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI10AppearanceO8rawValueSSvg",
+                "mangledName": "$s10SettingsUI10AppearanceO8rawValueSSvg",
+                "moduleName": "SettingsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SettingsUI.Appearance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI10AppearanceO8allCasesSayACGvpZ",
+            "mangledName": "$s10SettingsUI10AppearanceO8allCasesSayACGvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI.Appearance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SettingsUI.Appearance",
+                        "usr": "s:10SettingsUI10AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI10AppearanceO8allCasesSayACGvgZ",
+                "mangledName": "$s10SettingsUI10AppearanceO8allCasesSayACGvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10SettingsUI10AppearanceO",
+        "mangledName": "$s10SettingsUI10AppearanceO",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI.Appearance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SettingsUI.Appearance",
+                        "usr": "s:10SettingsUI10AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppearanceManager",
+        "printedName": "AppearanceManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appstorageKey",
+            "printedName": "appstorageKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI17AppearanceManagerV13appstorageKeySSvpZ",
+            "mangledName": "$s10SettingsUI17AppearanceManagerV13appstorageKeySSvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI17AppearanceManagerV13appstorageKeySSvgZ",
+                "mangledName": "$s10SettingsUI17AppearanceManagerV13appstorageKeySSvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentAppearance",
+            "printedName": "currentAppearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SettingsUI.Appearance",
+                "usr": "s:10SettingsUI10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI17AppearanceManagerV07currentC0AA0C0OvpZ",
+            "mangledName": "$s10SettingsUI17AppearanceManagerV07currentC0AA0C0OvpZ",
+            "moduleName": "SettingsUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI17AppearanceManagerV07currentC0AA0C0OvgZ",
+                "mangledName": "$s10SettingsUI17AppearanceManagerV07currentC0AA0C0OvgZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI17AppearanceManagerV07currentC0AA0C0OvsZ",
+                "mangledName": "$s10SettingsUI17AppearanceManagerV07currentC0AA0C0OvsZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI17AppearanceManagerV07currentC0AA0C0OvMZ",
+                "mangledName": "$s10SettingsUI17AppearanceManagerV07currentC0AA0C0OvMZ",
+                "moduleName": "SettingsUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI17AppearanceManagerV",
+        "mangledName": "$s10SettingsUI17AppearanceManagerV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppearancePicker",
+        "printedName": "AppearancePicker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI16AppearancePickerV4bodyQrvp",
+            "mangledName": "$s10SettingsUI16AppearancePickerV4bodyQrvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI16AppearancePickerV4bodyQrvg",
+                "mangledName": "$s10SettingsUI16AppearancePickerV4bodyQrvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI16AppearancePickerV",
+        "mangledName": "$s10SettingsUI16AppearancePickerV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PreferredColorScheme",
+        "printedName": "PreferredColorScheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI20PreferredColorSchemeV4bodyQrvp",
+            "mangledName": "$s10SettingsUI20PreferredColorSchemeV4bodyQrvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI20PreferredColorSchemeV4bodyQrvg",
+                "mangledName": "$s10SettingsUI20PreferredColorSchemeV4bodyQrvg",
+                "moduleName": "SettingsUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI20PreferredColorSchemeV",
+        "mangledName": "$s10SettingsUI20PreferredColorSchemeV",
+        "moduleName": "SettingsUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "changeAppearance",
+            "printedName": "changeAppearance(currentAppearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SettingsUI.Appearance",
+                "usr": "s:10SettingsUI10AppearanceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08SettingsB0E16changeAppearance07currentF0QrAD0F0O_tF",
+            "mangledName": "$s7SwiftUI4ViewP08SettingsB0E16changeAppearance07currentF0QrAD0F0O_tF",
+            "moduleName": "SettingsUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 15,
+      "value": "\"person.wave.2\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 24,
+      "value": "\"https:\/\/www.google.com\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 13,
+      "value": "\"Google Link\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/WrapHStack\/WrapHstack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/AccentColor\/AccentColorManager.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 20,
+      "value": "\"currentAccentColor\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/Appearance\/AppearanceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 19,
+      "value": "\"currentAppearance\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/Appearance\/AppearancePicker.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 19,
+      "value": "\"currentAppearance\""
+    },
+    {
+      "filePath": "@__swiftmacro_10SettingsUI0027AppearancePickerswift_ovFAhfMX34_0_33_9AF38DA05787526794C782A3038DC3CBLl7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 19,
+      "value": "\"currentAppearance\""
+    }
+  ]
+}
