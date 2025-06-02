@@ -15,6 +15,140 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "URLLinkView",
+        "printedName": "URLLinkView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvp",
+            "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvp",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvg",
+                "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvg",
+                "moduleName": "SettingsUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SettingsUI11URLLinkViewV",
+        "mangledName": "$s10SettingsUI11URLLinkViewV",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -2025,128 +2159,34 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "TypeDecl",
+            "kind": "Function",
             "name": "manageTags",
-            "printedName": "manageTags",
+            "printedName": "manageTags()",
             "children": [
               {
-                "kind": "Var",
-                "name": "body",
-                "printedName": "body",
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp",
-                "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp",
-                "moduleName": "SettingsUI",
-                "declAttributes": [
-                  "Preconcurrency",
-                  "Custom",
-                  "AccessControl"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpaqueTypeArchetype",
-                        "printedName": "some SwiftUI.View",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "View",
-                            "printedName": "SwiftUI.View",
-                            "usr": "s:7SwiftUI4ViewP"
-                          }
-                        ]
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvg",
-                    "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvg",
-                    "moduleName": "SettingsUI",
-                    "accessorKind": "get"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
                 ]
               }
             ],
-            "declKind": "Struct",
-            "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsV",
-            "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsV",
+            "declKind": "Func",
+            "usr": "s:10SettingsUI0A12NavLinkLabelV10manageTagsQryFZ",
+            "mangledName": "$s10SettingsUI0A12NavLinkLabelV10manageTagsQryFZ",
             "moduleName": "SettingsUI",
+            "static": true,
             "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "View",
-                "printedName": "View",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "Body",
-                    "printedName": "Body",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpaqueTypeArchetype",
-                        "printedName": "some SwiftUI.View",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "View",
-                            "printedName": "SwiftUI.View",
-                            "usr": "s:7SwiftUI4ViewP"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:7SwiftUI4ViewP",
-                "mangledName": "$s7SwiftUI4ViewP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2346,140 +2386,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "URLLinkView",
-        "printedName": "URLLinkView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvp",
-            "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvp",
-            "moduleName": "SettingsUI",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10SettingsUI11URLLinkViewV4bodyQrvg",
-                "mangledName": "$s10SettingsUI11URLLinkViewV4bodyQrvg",
-                "moduleName": "SettingsUI",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10SettingsUI11URLLinkViewV",
-        "mangledName": "$s10SettingsUI11URLLinkViewV",
-        "moduleName": "SettingsUI",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "View",
         "printedName": "View",
@@ -2569,6 +2475,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 15,
+      "value": "\"person.wave.2\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 24,
+      "value": "\"https:\/\/www.google.com\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 13,
+      "value": "\"Google Link\""
+    },
+    {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/WrapHStack\/WrapHstack.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
@@ -2602,27 +2529,6 @@
       "offset": 628,
       "length": 19,
       "value": "\"currentAppearance\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
-      "kind": "StringLiteral",
-      "offset": 904,
-      "length": 15,
-      "value": "\"person.wave.2\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
-      "kind": "StringLiteral",
-      "offset": 992,
-      "length": 24,
-      "value": "\"https:\/\/www.google.com\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
-      "kind": "StringLiteral",
-      "offset": 1051,
-      "length": 13,
-      "value": "\"Google Link\""
     }
   ]
 }
