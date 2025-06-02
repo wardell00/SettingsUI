@@ -7,17 +7,6 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct URLLink : Swift.Identifiable {
-  public let id: Foundation.UUID
-  public typealias ID = Foundation.UUID
-}
-@_Concurrency.MainActor @preconcurrency public struct URLLinkView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI11URLLinkViewV4bodyQrvp", 0) __
-}
-
 public struct AccentColorManager {
   public static let appstorageKey: Swift.String
   public static var currentAccentColor: SettingsUI.AccentColorTint {
@@ -115,7 +104,18 @@ public struct SettingsNavLinkLabel {
   
 }
 
-extension SettingsUI.URLLinkView : Swift.Sendable {}
+public struct URLLink : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public typealias ID = Foundation.UUID
+}
+@_Concurrency.MainActor @preconcurrency public struct URLLinkView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI11URLLinkViewV4bodyQrvp", 0) __
+}
+
 extension SettingsUI.AccentColorThemePicker : Swift.Sendable {}
 extension SettingsUI.AccentColorTint : Swift.Equatable {}
 extension SettingsUI.AccentColorTint : Swift.Hashable {}
@@ -125,3 +125,4 @@ extension SettingsUI.Appearance : Swift.Hashable {}
 extension SettingsUI.Appearance : Swift.RawRepresentable {}
 extension SettingsUI.AppearancePicker : Swift.Sendable {}
 extension SettingsUI.PreferredColorScheme : Swift.Sendable {}
+extension SettingsUI.URLLinkView : Swift.Sendable {}
