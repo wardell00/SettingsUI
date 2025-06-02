@@ -107,12 +107,8 @@ extension SwiftUICore.View {
 public struct SettingsNavLinkLabel {
   public static func appearance(currentAppearance: SettingsUI.Appearance) -> some SwiftUICore.View
   
-  @_Concurrency.MainActor @preconcurrency public struct manageTags : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI0A12NavLinkLabelV10manageTagsV4bodyQrvp", 0) __
-  }
+  public static func manageTags() -> some SwiftUICore.View
+  
   public static func accentColor(currentAccent: SettingsUI.AccentColorTint) -> some SwiftUICore.View
   
   public static func recentlyDeleted() -> some SwiftUICore.View
@@ -129,4 +125,3 @@ extension SettingsUI.Appearance : Swift.Hashable {}
 extension SettingsUI.Appearance : Swift.RawRepresentable {}
 extension SettingsUI.AppearancePicker : Swift.Sendable {}
 extension SettingsUI.PreferredColorScheme : Swift.Sendable {}
-extension SettingsUI.SettingsNavLinkLabel.manageTags : Swift.Sendable {}
