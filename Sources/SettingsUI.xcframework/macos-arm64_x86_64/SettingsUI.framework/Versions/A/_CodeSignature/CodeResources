@@ -33,14 +33,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SHjL5MGmME6HtYQ92hwAHdizcJ/PXYRHqP8U7cbEBmA=
+			PAGlsPQ6743vAeE6vEKyK29vOZNntA0W5M9ZG2Q7DY8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5c6NzpCAAt+zsUAebw2SNFPpwWLQRGUgdUZRKngtcoM=
+			z2vnOHIVwx9P6A46fyMUdDYZNLiRp+/kO8RHCy4bgrU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -54,28 +54,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5c6NzpCAAt+zsUAebw2SNFPpwWLQRGUgdUZRKngtcoM=
+			z2vnOHIVwx9P6A46fyMUdDYZNLiRp+/kO8RHCy4bgrU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LdardaqzNvzeEyY7waJs7VrIrBMqJiDTzQEKmRQkjW0=
+			+bgzs09BZZ+RG+UOF8EN8trl2HxtK/7y2R+L0ZEH1dM=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SHjL5MGmME6HtYQ92hwAHdizcJ/PXYRHqP8U7cbEBmA=
+			PAGlsPQ6743vAeE6vEKyK29vOZNntA0W5M9ZG2Q7DY8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0N9hSuA47oSM91SXPjFEhcLOCszPGi0Y8N6a42jy7gs=
+			/4xgd5VoSffFF8GZr8Uke0tEdXCVucrBpgScX3EW6zc=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0N9hSuA47oSM91SXPjFEhcLOCszPGi0Y8N6a42jy7gs=
+			/4xgd5VoSffFF8GZr8Uke0tEdXCVucrBpgScX3EW6zc=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Ur4XNkweA2mXA1PA3Kxwpn3e52vMEULidQDk6ijvuo=
+			HrHspbouoVS6ASQdoHjoAedevcyLcjIrr0KZJMZlipQ=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

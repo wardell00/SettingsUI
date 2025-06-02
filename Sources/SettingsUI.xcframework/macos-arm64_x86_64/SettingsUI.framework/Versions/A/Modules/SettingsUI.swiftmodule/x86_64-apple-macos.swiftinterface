@@ -15,6 +15,7 @@ public struct AccentColorManager {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct AccentColorThemePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(accentColor: SwiftUICore.Binding<SettingsUI.AccentColorTint>)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -77,6 +78,7 @@ public struct AppearanceManager {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct AppearancePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(currentAppearance: SwiftUICore.Binding<SettingsUI.Appearance>, alignment: SwiftUICore.Alignment = .center)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -110,6 +112,7 @@ public struct URLLink : Swift.Identifiable {
   public typealias ID = Foundation.UUID
 }
 @_Concurrency.MainActor @preconcurrency public struct URLLinkView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(urlLink: SettingsUI.URLLink)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }

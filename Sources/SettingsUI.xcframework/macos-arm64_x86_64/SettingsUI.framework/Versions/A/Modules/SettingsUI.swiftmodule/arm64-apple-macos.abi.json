@@ -209,6 +209,43 @@
         "printedName": "AccentColorThemePicker",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accentColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorThemePicker",
+                "printedName": "SettingsUI.AccentColorThemePicker",
+                "usr": "s:10SettingsUI22AccentColorThemePickerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<SettingsUI.AccentColorTint>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI.AccentColorTint",
+                    "usr": "s:10SettingsUI15AccentColorTintO"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SettingsUI22AccentColorThemePickerV06accentD0AC05SwiftB07BindingVyAA0cD4TintOG_tcfc",
+            "mangledName": "$s10SettingsUI22AccentColorThemePickerV06accentD0AC05SwiftB07BindingVyAA0cD4TintOG_tcfc",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -1707,6 +1744,50 @@
         "printedName": "AppearancePicker",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentAppearance:alignment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppearancePicker",
+                "printedName": "SettingsUI.AppearancePicker",
+                "usr": "s:10SettingsUI16AppearancePickerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<SettingsUI.Appearance>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI.Appearance",
+                    "usr": "s:10SettingsUI10AppearanceO"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "SwiftUI.Alignment",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI9AlignmentV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SettingsUI16AppearancePickerV07currentC09alignmentAC05SwiftB07BindingVyAA0C0OG_AF9AlignmentVtcfc",
+            "mangledName": "$s10SettingsUI16AppearancePickerV07currentC09alignmentAC05SwiftB07BindingVyAA0C0OG_AF9AlignmentVtcfc",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -2326,6 +2407,35 @@
         "printedName": "URLLinkView",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLLinkView",
+                "printedName": "SettingsUI.URLLinkView",
+                "usr": "s:10SettingsUI11URLLinkViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLLink",
+                "printedName": "SettingsUI.URLLink",
+                "usr": "s:10SettingsUI7URLLinkV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SettingsUI11URLLinkViewV7urlLinkAcA0C0V_tcfc",
+            "mangledName": "$s10SettingsUI11URLLinkViewV7urlLinkAcA0C0V_tcfc",
+            "moduleName": "SettingsUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -2557,12 +2667,12 @@
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/Appearance\/AppearancePicker.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1260,
       "length": 19,
       "value": "\"currentAppearance\""
     },
     {
-      "filePath": "@__swiftmacro_10SettingsUI0027AppearancePickerswift_ovFAhfMX34_0_33_9AF38DA05787526794C782A3038DC3CBLl7PreviewfMf_.swift",
+      "filePath": "@__swiftmacro_10SettingsUI0027AppearancePickerswift_ovFAhfMX43_0_33_9AF38DA05787526794C782A3038DC3CBLl7PreviewfMf_.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 19,
@@ -2571,21 +2681,21 @@
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 987,
       "length": 15,
       "value": "\"person.wave.2\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 1075,
       "length": 24,
       "value": "\"https:\/\/www.google.com\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI\/SettingsUI\/URLLink\/URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1134,
       "length": 13,
       "value": "\"Google Link\""
     }

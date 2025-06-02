@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GQJirSj5hKf3/ELjTYV4q0hgSPQ=
+		XrDBzfz6LYDaWKpP4RxJEoDVPjo=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z2XEJFE+djzWeIWN7BlMH8YlWs4=
+		OUD+71S5/dTaIQ5ToQw0CO6FE6U=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z2XEJFE+djzWeIWN7BlMH8YlWs4=
+		OUD+71S5/dTaIQ5ToQw0CO6FE6U=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e8BKaVeYAuqjEccumXmwzQFegkc=
+		eMqDYs+8GmpYbh/ApMEVnc5WDz4=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GQJirSj5hKf3/ELjTYV4q0hgSPQ=
+		XrDBzfz6LYDaWKpP4RxJEoDVPjo=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5NXxgPoD5OYwIv7qE7jTOgFAU6c=
+		r8gg+WflqsNbCkDwtyFjQPJuil4=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5NXxgPoD5OYwIv7qE7jTOgFAU6c=
+		r8gg+WflqsNbCkDwtyFjQPJuil4=
 		</data>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+u2Ysq3lmahg6Rq7Pvftx1Elfq8=
+		yM1Er5LTzbdCrz1QQP5JaJXV+h8=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7bcP610OFoMGzKfKBpLRyYTjEPbMmuHcTgAMu17Df0=
+			OFfTP7f++UxoMFxXyuh5YVGKE0+S1dw5RA6pk8DE5vk=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bugvug32NlVlAfHp5HuEi1YAhbtqV++jP7SU0WQeyEo=
+			NqpfY4mPZlTnFDtKkzfjLraBNNbuYDC5SVj5fDoCEKc=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -94,28 +94,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bugvug32NlVlAfHp5HuEi1YAhbtqV++jP7SU0WQeyEo=
+			NqpfY4mPZlTnFDtKkzfjLraBNNbuYDC5SVj5fDoCEKc=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gXrpZnsR1OdQygsdYSoLySkuIqTEuv7juWxiB+4uqs=
+			aT0RPTQRYJhyLGuwmXroXx1vY5Mytx2ZKvzhyFrjT3w=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7bcP610OFoMGzKfKBpLRyYTjEPbMmuHcTgAMu17Df0=
+			OFfTP7f++UxoMFxXyuh5YVGKE0+S1dw5RA6pk8DE5vk=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3uIlhU+jZL0rN/NIjffBYSeQPu4O0CG1dGF/iXp444=
+			olZbuINcklRJezSsoLPeDUky0176yyqUjdYrkBUk3+Y=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3uIlhU+jZL0rN/NIjffBYSeQPu4O0CG1dGF/iXp444=
+			olZbuINcklRJezSsoLPeDUky0176yyqUjdYrkBUk3+Y=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ugku6pYHqaAXJcsVmaFduEUACJwmOl3xOnUIJjbGzGk=
+			Bj4u9G0EqlTBes4gqjLv9G0SEqO4VuRHDZs2zuWNEeU=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
