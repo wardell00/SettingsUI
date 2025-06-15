@@ -1,0 +1,163 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-xros2.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SettingsUI
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct URLLink : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public typealias ID = Foundation.UUID
+}
+@_Concurrency.MainActor @preconcurrency public struct URLLinkView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(urlLink: SettingsUI.URLLink)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI11URLLinkViewV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
+  
+}
+public struct AccentColorKey : SwiftUICore.EnvironmentKey {
+  public static var defaultValue: SettingsUI.AccentColorTint {
+    get
+  }
+  public typealias Value = SettingsUI.AccentColorTint
+}
+extension SwiftUICore.EnvironmentValues {
+  public var accentColor: SettingsUI.AccentColorTint {
+    get
+    set
+  }
+}
+final public class SettingsValues {
+  final public var appearance: SettingsUI.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI.SettingsValues : Observation.Observable {
+}
+@_Concurrency.MainActor @preconcurrency public struct AccentColorThemePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI22AccentColorThemePickerV4bodyQrvp", 0) __
+}
+
+
+public enum AccentColorTint : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
+  public var id: SettingsUI.AccentColorTint {
+    get
+  }
+  case defaultBlue
+  case red
+  case green
+  case yellow
+  case pink
+  case purple
+  case mint
+  case teal
+  case blush
+  public func color() -> SwiftUICore.Color
+  public func localized() -> Swift.String
+  public func label(currentAccent: SettingsUI.AccentColorTint) -> some SwiftUICore.View
+  
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SettingsUI.AccentColorTint]
+  public typealias ID = SettingsUI.AccentColorTint
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SettingsUI.AccentColorTint] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+
+
+public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
+  public var id: SettingsUI.Appearance {
+    get
+  }
+  case Dark
+  case Light
+  case System
+  public func image() -> some SwiftUICore.View
+  
+  public func text() -> Swift.String
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SettingsUI.Appearance]
+  public typealias ID = SettingsUI.Appearance
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SettingsUI.Appearance] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+
+public struct AppearanceKey : SwiftUICore.EnvironmentKey {
+  public static var defaultValue: SettingsUI.Appearance {
+    get
+  }
+  public typealias Value = SettingsUI.Appearance
+}
+extension SwiftUICore.EnvironmentValues {
+  public var appearance: SettingsUI.Appearance {
+    get
+    set
+  }
+}
+public struct SettingsNavLinkLabel {
+  public static func appearance() -> some SwiftUICore.View
+  
+  public static func manageTags() -> some SwiftUICore.View
+  
+  public static func accentColor() -> some SwiftUICore.View
+  
+  public static func recentlyDeleted() -> some SwiftUICore.View
+  
+}
+
+@_Concurrency.MainActor @preconcurrency public struct AppearancePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(alignment: SwiftUICore.Alignment = .center)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10SettingsUI16AppearancePickerV4bodyQrvp", 0) __
+}
+
+extension SettingsUI.URLLinkView : Swift.Sendable {}
+extension SettingsUI.PreferredColorScheme : Swift.Sendable {}
+extension SettingsUI.AccentColorThemePicker : Swift.Sendable {}
+extension SettingsUI.AccentColorTint : Swift.Equatable {}
+extension SettingsUI.AccentColorTint : Swift.Hashable {}
+extension SettingsUI.AccentColorTint : Swift.RawRepresentable {}
+extension SettingsUI.Appearance : Swift.Equatable {}
+extension SettingsUI.Appearance : Swift.Hashable {}
+extension SettingsUI.Appearance : Swift.RawRepresentable {}
+extension SettingsUI.AppearancePicker : Swift.Sendable {}
