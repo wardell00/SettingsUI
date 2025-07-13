@@ -32,6 +32,194 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SettingsUI_Protocols",
+        "printedName": "SettingsUI_Protocols",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Internal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppearancePicker",
+        "printedName": "AppearancePicker",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(alignment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppearancePicker",
+                "printedName": "SettingsUI_Internal.AppearancePicker",
+                "usr": "s:19SettingsUI_Internal16AppearancePickerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "SwiftUI.Alignment",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI9AlignmentV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal16AppearancePickerV9alignmentAC05SwiftB09AlignmentV_tcfc",
+            "mangledName": "$s19SettingsUI_Internal16AppearancePickerV9alignmentAC05SwiftB09AlignmentV_tcfc",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal16AppearancePickerV4bodyQrvp",
+            "mangledName": "$s19SettingsUI_Internal16AppearancePickerV4bodyQrvp",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal16AppearancePickerV4bodyQrvg",
+                "mangledName": "$s19SettingsUI_Internal16AppearancePickerV4bodyQrvg",
+                "moduleName": "SettingsUI_Internal",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SettingsUI_Internal16AppearancePickerV",
+        "mangledName": "$s19SettingsUI_Internal16AppearancePickerV",
+        "moduleName": "SettingsUI_Internal",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Internal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SettingsUI_Protocols",
+        "printedName": "SettingsUI_Protocols",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Internal"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Internal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AccentColorNavLink",
         "printedName": "AccentColorNavLink",
@@ -959,194 +1147,6 @@
         "declKind": "Struct",
         "usr": "s:19SettingsUI_Internal23_AccentColorThemePickerV",
         "mangledName": "$s19SettingsUI_Internal23_AccentColorThemePickerV",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SettingsUI_Protocols",
-        "printedName": "SettingsUI_Protocols",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SettingsUI_Protocols",
-        "printedName": "SettingsUI_Protocols",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AppearancePicker",
-        "printedName": "AppearancePicker",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(alignment:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AppearancePicker",
-                "printedName": "SettingsUI_Internal.AppearancePicker",
-                "usr": "s:19SettingsUI_Internal16AppearancePickerV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Alignment",
-                "printedName": "SwiftUI.Alignment",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI9AlignmentV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal16AppearancePickerV9alignmentAC05SwiftB09AlignmentV_tcfc",
-            "mangledName": "$s19SettingsUI_Internal16AppearancePickerV9alignmentAC05SwiftB09AlignmentV_tcfc",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal16AppearancePickerV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal16AppearancePickerV4bodyQrvp",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal16AppearancePickerV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal16AppearancePickerV4bodyQrvg",
-                "moduleName": "SettingsUI_Internal",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal16AppearancePickerV",
-        "mangledName": "$s19SettingsUI_Internal16AppearancePickerV",
         "moduleName": "SettingsUI_Internal",
         "declAttributes": [
           "Preconcurrency",
