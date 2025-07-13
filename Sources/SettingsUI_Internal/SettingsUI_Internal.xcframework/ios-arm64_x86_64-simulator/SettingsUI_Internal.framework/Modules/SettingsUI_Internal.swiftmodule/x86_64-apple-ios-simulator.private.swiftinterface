@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios18.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SettingsUI_Internal
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import SettingsUI_Protocols
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct AccentColorNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct AppearanceNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct ManageTagsNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct RecentlyDeletedNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvp", 0) __
+}
+
+@_Concurrency.MainActor @preconcurrency public struct _URLLinkView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(urlLink: SettingsUI_Protocols.URLLink)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal12_URLLinkViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct _AccentColorThemePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(_ accentColorChoices: [SettingsUI_Protocols.AccentColorTint] = AccentColorTint.allCases)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal23_AccentColorThemePickerV4bodyQrvp", 0) __
+}
+
+
+@_Concurrency.MainActor @preconcurrency public struct AppearancePicker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(alignment: SwiftUICore.Alignment = .center)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal16AppearancePickerV4bodyQrvp", 0) __
+}
+
+extension SettingsUI_Internal.AccentColorNavLink : Swift.Sendable {}
+extension SettingsUI_Internal.AppearanceNavLink : Swift.Sendable {}
+extension SettingsUI_Internal.ManageTagsNavLink : Swift.Sendable {}
+extension SettingsUI_Internal.RecentlyDeletedNavLink : Swift.Sendable {}
+extension SettingsUI_Internal._URLLinkView : Swift.Sendable {}
+extension SettingsUI_Internal._AccentColorThemePicker : Swift.Sendable {}
+extension SettingsUI_Internal.AppearancePicker : Swift.Sendable {}
