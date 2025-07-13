@@ -33,6 +33,7 @@ import _SwiftConcurrencyShims
 }
 
 @_Concurrency.MainActor @preconcurrency public struct AccentColorNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -40,6 +41,7 @@ import _SwiftConcurrencyShims
 }
 
 @_Concurrency.MainActor @preconcurrency public struct AppearanceNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -47,6 +49,7 @@ import _SwiftConcurrencyShims
 }
 
 @_Concurrency.MainActor @preconcurrency public struct ManageTagsNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -54,6 +57,7 @@ import _SwiftConcurrencyShims
 }
 
 @_Concurrency.MainActor @preconcurrency public struct RecentlyDeletedNavLink : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
