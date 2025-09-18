@@ -10,14 +10,11 @@ import SettingsUI_Internal
 @_exported import SettingsUI_Protocols
 
 public struct Appearancepicker: View {
-    let alignment: Alignment
-    
-    public init(alignment: Alignment = .center) {
-        self.alignment = alignment
-    }
+
+    public init() {}
     
     public var body: some View {
-        AppearancePicker(alignment: alignment)
+        _AppearancePicker()
     }
 }
 
