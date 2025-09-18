@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/SettingsUI_Protocols.framework/SettingsUI_Protocols</key>
 		<data>
-		Wsrdf/884FfQBahJWyK8y2w5tKc=
+		otWeQsjFs1bB3AiQaDBBB+/uPvM=
 		</data>
 		<key>Frameworks/SettingsUI_Protocols.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -40,47 +40,47 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		Zjrd35/Yd8ptHHHmQvSDIMvu+zo=
+		CAVe7RpxlvZKsFOWw1gfI+0Ragc=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		USDBXatVBLVYiiSXi1QNZcgaaBY=
+		T1sA0xuSu8Z8Yyu3h6Ti1auTF0A=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l5egzi9MAZsbGFvyVabxUbor/Ls=
+		3oB3GPRDA5KSR21Fv3jXA435u2U=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9zfM5yUrqay4EBtQHMQ2IjgvTFE=
+		Zaypm2S83t3+IbQlM3b/ZEXFPBU=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l5egzi9MAZsbGFvyVabxUbor/Ls=
+		3oB3GPRDA5KSR21Fv3jXA435u2U=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z9s5DxyqRvTYQbJ4V3rKiyrQiag=
+		oaRxQfbuz8wzQv5klxAMFUXFdVA=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		USDBXatVBLVYiiSXi1QNZcgaaBY=
+		T1sA0xuSu8Z8Yyu3h6Ti1auTF0A=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		d+q8rYJV875lEd4qrcDf8q5ZU3w=
+		RsJkV1VyLaMQK7zWTlkHreG7pgA=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7Pw9ExXcoo/LqCbO71O+wod7hww=
+		QVhSSzK4O+AURuWJEgGan2Xd9/8=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		d+q8rYJV875lEd4qrcDf8q5ZU3w=
+		RsJkV1VyLaMQK7zWTlkHreG7pgA=
 		</data>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DOw3tuvA4Hwhy+QLSIwcrkDxbME=
+		sWJWZlQnEDEV/dmBPHG+jxhRoFE=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Js5I6OcdFxPvJbMwq7zCa/0VYUJmUadVZfLf2X/J9ZU=
+			tVVtBh9TnXXL6dPK6yd/HEdo3luz1M0gB81Cn8ok4V4=
 			</data>
 		</dict>
 		<key>Frameworks/SettingsUI_Protocols.framework/_CodeSignature/CodeResources</key>
@@ -153,70 +153,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fa8aEK4/g1Ki8wvAclIi+wM/OOTlcYdod/az99DeG9I=
+			Yap6Zgv7PNvEKO6Z/UUJ1w4cw5cI4rbGWJCeHlsmj6M=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bw1AQ2YEqAdiySTT25wVNQnTgMht0eIlpDC0U4e+rTk=
+			gaEBy5JsO3HNgqaQRgKKURUFOeu+mASpuRUbcBT4oOU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SCEjUCY1fzcTFXn+RB3rjJVAzLgVrFmyCN0yRYUPeJQ=
+			YdQr8B0KM/STiQtX3Yt54HWwqbsm+m6w6KM7oLtTIGk=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bw1AQ2YEqAdiySTT25wVNQnTgMht0eIlpDC0U4e+rTk=
+			gaEBy5JsO3HNgqaQRgKKURUFOeu+mASpuRUbcBT4oOU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IQlj+LFUX0PVRzYKsqhaqUEyRIMQUqnrJxucLhnE0XU=
+			7B8L+jj+Ykbaa0az6o3c+VtyqB5bo+ybRbapREotOWQ=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fa8aEK4/g1Ki8wvAclIi+wM/OOTlcYdod/az99DeG9I=
+			Yap6Zgv7PNvEKO6Z/UUJ1w4cw5cI4rbGWJCeHlsmj6M=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/S5zCa7vfF//ZXO9Bd7/yVR0FT9ovu4QodUQ4wy//0=
+			7mN2o3SA7WpRh7yQ1daPsbqXaMFsiMWoHfkFXs8UUnw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E8TML/2Pce4QIRiFSMqvfmJOcR+IEugUnCmm3R6uXvo=
+			WUiN6rMzbfcGuuGSuXBOtnwjjmUWftvCzBfLvD/Sxv8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/S5zCa7vfF//ZXO9Bd7/yVR0FT9ovu4QodUQ4wy//0=
+			7mN2o3SA7WpRh7yQ1daPsbqXaMFsiMWoHfkFXs8UUnw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4UmTYrEWqdTZ6qzTvJxoGzUfObECJdFeh3CJlylTsU=
+			+Z+qncK0Ny781KfogEXccaAA7BEFOkiSyXue4JHWqc0=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-xros2.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SettingsUI_Protocols
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import DeveloperToolsSupport
 import Foundation
 import Swift
@@ -10,22 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-final public class SettingsValues {
-  final public var appearance: SettingsUI_Protocols.Appearance {
-    get
-    set
-    _modify
-  }
-  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
-    get
-    set
-    _modify
-  }
-  public init()
-  @objc deinit
-}
-extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
-}
 public struct AccentColorKey : SwiftUICore.EnvironmentKey {
   public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
     get
@@ -71,7 +55,9 @@ extension SettingsUI_Protocols.AccentColorTint {
   public static let allCases: [SettingsUI_Protocols.AccentColorTint]
 }
 extension SwiftUICore.Color {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(hex: Swift.String)
+  #endif
 }
 @frozen public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
   public var id: SettingsUI_Protocols.Appearance {
@@ -86,7 +72,9 @@ extension SwiftUICore.Color {
   public var text: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [SettingsUI_Protocols.Appearance]
   public typealias ID = SettingsUI_Protocols.Appearance
   public typealias RawValue = Swift.String
@@ -127,8 +115,26 @@ public struct URLLink : Swift.Identifiable {
   public let url: Foundation.URL?
   public let text: SwiftUICore.LocalizedStringKey
   public let color: SwiftUICore.Color
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  #endif
   public typealias ID = Foundation.UUID
+}
+final public class SettingsValues {
+  final public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI_Protocols.SettingsValues : nonisolated Observation.Observable {
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}
