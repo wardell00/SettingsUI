@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		u7nfHPmpdK2OuwYBnc9Z3mXHwYU=
+		swGtNdTWlEBDrjtrtL25FzFGmVA=
 		</data>
 		<key>Resources/de.lproj/Localizable.strings</key>
 		<dict>
@@ -33,7 +33,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			g2q6tdC1pZoIHjNpnrDRpxvU4eg=
+			yc7thyO/EaA792LdjCa9TzSg5FI=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.LoewenDev.SettingsUI-Protocols" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Alexander Loewe (NGDK5KPP2T)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -42,77 +42,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f4PRB3TBdH5wwQX0VwWHVJPPjbQkgp0+3s/oKZLmfnI=
+			Yap6Zgv7PNvEKO6Z/UUJ1w4cw5cI4rbGWJCeHlsmj6M=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RuqBfHWHBYUEkGgSRG9pbjbHwYOEzTPPf8vNNWYD4Ig=
+			lzTVfChVztU7arVa2oge3j7E/P1jDnhaXCsktvv84yU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ow3a2MJU8KAk/lIupVEASMCEEH9QuWWscC2UVB6PF5E=
+			Gwrzkkydqi2EUdk1Q1wUmzipzpGCLLa6rAgc+KMJ8Yg=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RuqBfHWHBYUEkGgSRG9pbjbHwYOEzTPPf8vNNWYD4Ig=
+			lzTVfChVztU7arVa2oge3j7E/P1jDnhaXCsktvv84yU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BymINKh3LLPNrRvtC5wmLrpGfQactrkJQSYJ8aZpJlM=
+			qM8sfxgdtzBXObGBp6uaZksu8mKSJKCNFW3JNDD6ulY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f4PRB3TBdH5wwQX0VwWHVJPPjbQkgp0+3s/oKZLmfnI=
+			Yap6Zgv7PNvEKO6Z/UUJ1w4cw5cI4rbGWJCeHlsmj6M=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xzexSNX99ACXOBIFZ5J1mhMn2lCUdm08LlKPZvGk8JE=
+			FFI4a735kkC0WzPjUWTSpZIgxrmzUJKSYhb97oztmFQ=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B0PKanzVTlXyGrwOB1jXsFWReeOdM3d6/wL10wd//E=
+			yPAFRdjhw7dzxKcpkeQ80BVBZEjvwfWTP6rYcY1Xe7s=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xzexSNX99ACXOBIFZ5J1mhMn2lCUdm08LlKPZvGk8JE=
+			FFI4a735kkC0WzPjUWTSpZIgxrmzUJKSYhb97oztmFQ=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Internal.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			66S2z+qrpG8tB8Y1GR/L7aQvo+35dAgOq47emmbOu0M=
+			7DEdfrI11M0xjr1fg/O4KUjhz096jOZ1k73chyLkvIc=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rN+Vl9DfcivP1ugId58Wdm0xlWBAHA1yNf3eDU5wLDM=
+			80ajm0PGu3fpNsO+y2ANJoER3u702yhsXat6qEmn2dg=
 			</data>
 		</dict>
 		<key>Resources/de.lproj/Localizable.strings</key>

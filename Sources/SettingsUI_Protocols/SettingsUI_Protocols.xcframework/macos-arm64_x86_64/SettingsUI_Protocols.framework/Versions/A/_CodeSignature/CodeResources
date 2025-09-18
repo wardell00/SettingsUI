@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		bXdB4Qq8d2WDOQyo4JOZL8hEalI=
+		Y1DN/AUZpbv7VUFyNl/rUuCWGnM=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		RQuXylawG0nhz5f6aJfp7fAn3Qo=
+		mGBfW6rfpxYkDFLy96YtDoIrzes=
 		</data>
 		<key>Resources/de.lproj/Localizable.strings</key>
 		<dict>
@@ -37,84 +37,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/xJAkpKXN8tLj458DgnNVTjq4NHFjWOXqPsejOjsxA=
+			4izWzQduoLDj/mJQj2JIhh8LryfSkVoTuPCAR/iS/8E=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ld/q9wv8S1hJKkxbq5CDYG5bcDMBpzS75bS1Wa4IPWA=
+			zNONBOIILGFUt359vmqnbP+6fPy3IbH6PgToiEObops=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rSLiOollyhfV2U7oR5PHCcZapxlHdiCJRvsouC57Z4c=
+			yx0v/e0fNO/TN0QvBUJJVJ63Rh/whz5alW1o6GHJMSM=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ld/q9wv8S1hJKkxbq5CDYG5bcDMBpzS75bS1Wa4IPWA=
+			zNONBOIILGFUt359vmqnbP+6fPy3IbH6PgToiEObops=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ntnnHSNUFLT5OTzAKFEHMLj3cW3dLgewqUSF+oRZqmM=
+			pzcfP6IIZpGRDRIm0bkdIM3BfP85ZYtLtBh2I2TX84o=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/xJAkpKXN8tLj458DgnNVTjq4NHFjWOXqPsejOjsxA=
+			4izWzQduoLDj/mJQj2JIhh8LryfSkVoTuPCAR/iS/8E=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+1uBc1hORW63io0mDSHV1EI6Di7fFCXQmk51kIiyIc=
+			iVh7gXTm+tBjtVUhZgtPaEb+Pdg9UPCMohDV6rOk5aA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/+QZOwFO0q2IXHWNuhYX8IMDWlH3ZN0oB0mc1rHMIc=
+			Wy5OrkzVQO/G8LzyuJ5EUIJBBM2EozkHuXI1Yv5ReV8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+1uBc1hORW63io0mDSHV1EI6Di7fFCXQmk51kIiyIc=
+			iVh7gXTm+tBjtVUhZgtPaEb+Pdg9UPCMohDV6rOk5aA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJ1ns/1Bb97A25s/qOmPz10XZmUoeDqdY3Bs/AHWfHg=
+			lUc/f4d1EhQ7dxRsp6ICOowID2TMdHybjxJU7BVXE2w=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+3OQafFjlWNPaflRLUsswR3THq27mTsqHahr4vnTQU=
+			BOqSFzRSiGJvNQXa46mO0SeSEetiz5vI3sg6lSIcI1Y=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEOP102fRtNaD0ZTcSl2DLkUPliWXa0uCAU3cvpgsA8=
+			9V58XqZ3V2Q8yRWbyvu29w65fHjmd0Mzv8Qzm3SRre8=
 			</data>
 		</dict>
 		<key>Resources/de.lproj/Localizable.strings</key>
