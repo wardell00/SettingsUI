@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SettingsUI_Internal
-@_exported import SettingsUI_Protocols
 
 public struct AccentColorThemePicker: View {
     let accentColorChoices: [AccentColorTint]
