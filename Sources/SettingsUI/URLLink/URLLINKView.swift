@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SettingsUI_Internal
-@_exported import SettingsUI_Protocols
 
 public struct URLLINKView: View {
     

@@ -19,13 +19,9 @@ let package = Package(
             name: "SettingsUI_Internal",
             path: "./Sources/SettingsUI_Internal/SettingsUI_Internal.xcframework"
         ),
-        .binaryTarget(
-            name: "SettingsUI_Protocols",
-            path: "./Sources/SettingsUI_Protocols/SettingsUI_Protocols.xcframework"
-        ),
         .target(
             name: "SettingsUI",
-            dependencies: ["SettingsUI_Internal", "SettingsUI_Protocols"]
+            dependencies: ["SettingsUI_Internal"]
         )
     ]
 )
