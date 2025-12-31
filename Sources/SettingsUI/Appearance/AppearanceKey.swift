@@ -9,8 +9,8 @@ import SwiftUI
 
 public struct AppearanceKey: EnvironmentKey {
     public static var defaultValue: Appearance {
-        if let raw = UserDefaults.standard.string(forKey: AppStorageKey.appearance),
-           let value = Appearance(rawValue: raw) {
+        if let id = UserDefaults.standard.string(forKey: AppStorageKey.appearanceID),
+           let value = Appearance(rawValue: id) {
             return value
         }
         return .System
@@ -24,7 +24,6 @@ public extension EnvironmentValues {
             self[AppearanceKey.self]
         } set {
             self[AppearanceKey.self] = newValue
-            UserDefaults.standard.set(newValue.rawValue, forKey: AppStorageKey.appearance)
         }
     }
 }

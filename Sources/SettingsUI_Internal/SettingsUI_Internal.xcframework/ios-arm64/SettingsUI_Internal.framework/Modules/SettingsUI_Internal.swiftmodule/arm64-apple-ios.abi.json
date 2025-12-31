@@ -26,14 +26,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
+                "name": "AnyHashable",
+                "printedName": "Swift.AnyHashable",
+                "usr": "s:s11AnyHashableV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal8_URLLinkV2id10Foundation4UUIDVvp",
-            "mangledName": "$s19SettingsUI_Internal8_URLLinkV2id10Foundation4UUIDVvp",
+            "usr": "s:19SettingsUI_Internal8_URLLinkV2ids11AnyHashableVvp",
+            "mangledName": "$s19SettingsUI_Internal8_URLLinkV2ids11AnyHashableVvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "HasStorage",
@@ -49,14 +49,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal8_URLLinkV2id10Foundation4UUIDVvg",
-                "mangledName": "$s19SettingsUI_Internal8_URLLinkV2id10Foundation4UUIDVvg",
+                "usr": "s:19SettingsUI_Internal8_URLLinkV2ids11AnyHashableVvg",
+                "mangledName": "$s19SettingsUI_Internal8_URLLinkV2ids11AnyHashableVvg",
                 "moduleName": "SettingsUI_Internal",
                 "implicit": true,
                 "accessorKind": "get"
@@ -268,9 +268,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
               },
               {
                 "kind": "TypeNominal",
@@ -306,9 +305,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal8_URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
-            "mangledName": "$s19SettingsUI_Internal8_URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
+            "usr": "s:19SettingsUI_Internal8_URLLinkV2id11systemImage3url4text5colorACx_SS10Foundation3URLVSg05SwiftB018LocalizedStringKeyVAM5ColorVtcSHRzlufc",
+            "mangledName": "$s19SettingsUI_Internal8_URLLinkV2id11systemImage3url4text5colorACx_SS10Foundation3URLVSg05SwiftB018LocalizedStringKeyVAM5ColorVtcSHRzlufc",
             "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<ID where ID : Swift.Hashable>",
             "declAttributes": [
               "AccessControl"
             ],
@@ -349,9 +350,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
                   }
                 ]
               }
@@ -728,8 +729,10 @@
             "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2idSSvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
+              "HasStorage",
               "AccessControl"
             ],
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -747,14 +750,57 @@
                 "usr": "s:19SettingsUI_Internal16_AccentColorTintV2idSSvg",
                 "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2idSSvg",
                 "moduleName": "SettingsUI_Internal",
+                "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal16_AccentColorTintV2idSSvs",
+                "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2idSSvs",
+                "moduleName": "SettingsUI_Internal",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal16_AccentColorTintV2idSSvM",
+                "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2idSSvM",
+                "moduleName": "SettingsUI_Internal",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(titleKey:colorName:)",
+            "printedName": "init(id:titleKey:colorName:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -773,11 +819,56 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal16_AccentColorTintV8titleKey9colorNameACSS_SStcfc",
-            "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV8titleKey9colorNameACSS_SStcfc",
+            "usr": "s:19SettingsUI_Internal16_AccentColorTintV2id8titleKey9colorNameACSS_S2Stcfc",
+            "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2id8titleKey9colorNameACSS_S2Stcfc",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:titleKey:colorHex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_AccentColorTint",
+                "printedName": "SettingsUI_Internal._AccentColorTint",
+                "usr": "s:19SettingsUI_Internal16_AccentColorTintV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal16_AccentColorTintV2id8titleKey8colorHexACSS_S2Stcfc",
+            "mangledName": "$s19SettingsUI_Internal16_AccentColorTintV2id8titleKey8colorHexACSS_S2Stcfc",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "AccessControl"
@@ -1887,14 +1978,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_Appearance",
-                "printedName": "SettingsUI_Internal._Appearance",
-                "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal11_AppearanceO2idACvp",
-            "mangledName": "$s19SettingsUI_Internal11_AppearanceO2idACvp",
+            "usr": "s:19SettingsUI_Internal11_AppearanceO2idSSvp",
+            "mangledName": "$s19SettingsUI_Internal11_AppearanceO2idSSvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "AccessControl"
@@ -1907,14 +1998,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "_Appearance",
-                    "printedName": "SettingsUI_Internal._Appearance",
-                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal11_AppearanceO2idACvg",
-                "mangledName": "$s19SettingsUI_Internal11_AppearanceO2idACvg",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO2idSSvg",
+                "mangledName": "$s19SettingsUI_Internal11_AppearanceO2idSSvg",
                 "moduleName": "SettingsUI_Internal",
                 "accessorKind": "get"
               }
@@ -2041,14 +2132,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal11_AppearanceO5image05SwiftB05ImageVvp",
-            "mangledName": "$s19SettingsUI_Internal11_AppearanceO5image05SwiftB05ImageVvp",
+            "usr": "s:19SettingsUI_Internal11_AppearanceO5imageSSvp",
+            "mangledName": "$s19SettingsUI_Internal11_AppearanceO5imageSSvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "AccessControl"
@@ -2061,14 +2152,54 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Image",
-                    "printedName": "SwiftUI.Image",
-                    "usr": "s:7SwiftUI5ImageV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal11_AppearanceO5image05SwiftB05ImageVvg",
-                "mangledName": "$s19SettingsUI_Internal11_AppearanceO5image05SwiftB05ImageVvg",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO5imageSSvg",
+                "mangledName": "$s19SettingsUI_Internal11_AppearanceO5imageSSvg",
+                "moduleName": "SettingsUI_Internal",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageColor",
+            "printedName": "imageColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal11_AppearanceO10imageColor05SwiftB00F0Vvp",
+            "mangledName": "$s19SettingsUI_Internal11_AppearanceO10imageColor05SwiftB00F0Vvp",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO10imageColor05SwiftB00F0Vvg",
+                "mangledName": "$s19SettingsUI_Internal11_AppearanceO10imageColor05SwiftB00F0Vvg",
                 "moduleName": "SettingsUI_Internal",
                 "accessorKind": "get"
               }
@@ -2110,6 +2241,66 @@
                 "usr": "s:19SettingsUI_Internal11_AppearanceO4textSSvg",
                 "mangledName": "$s19SettingsUI_Internal11_AppearanceO4textSSvg",
                 "moduleName": "SettingsUI_Internal",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SettingsUI_Internal._Appearance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Appearance",
+                    "printedName": "SettingsUI_Internal._Appearance",
+                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal11_AppearanceO8allCasesSayACGvpZ",
+            "mangledName": "$s19SettingsUI_Internal11_AppearanceO8allCasesSayACGvpZ",
+            "moduleName": "SettingsUI_Internal",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI_Internal._Appearance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_Appearance",
+                        "printedName": "SettingsUI_Internal._Appearance",
+                        "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO8allCasesSayACGvgZ",
+                "mangledName": "$s19SettingsUI_Internal11_AppearanceO8allCasesSayACGvgZ",
+                "moduleName": "SettingsUI_Internal",
+                "static": true,
+                "implicit": true,
                 "accessorKind": "get"
               }
             ]
@@ -2181,66 +2372,6 @@
                 "usr": "s:19SettingsUI_Internal11_AppearanceO8rawValueSSvg",
                 "mangledName": "$s19SettingsUI_Internal11_AppearanceO8rawValueSSvg",
                 "moduleName": "SettingsUI_Internal",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "allCases",
-            "printedName": "allCases",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[SettingsUI_Internal._Appearance]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Appearance",
-                    "printedName": "SettingsUI_Internal._Appearance",
-                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal11_AppearanceO8allCasesSayACGvpZ",
-            "mangledName": "$s19SettingsUI_Internal11_AppearanceO8allCasesSayACGvpZ",
-            "moduleName": "SettingsUI_Internal",
-            "static": true,
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[SettingsUI_Internal._Appearance]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_Appearance",
-                        "printedName": "SettingsUI_Internal._Appearance",
-                        "usr": "s:19SettingsUI_Internal11_AppearanceO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal11_AppearanceO8allCasesSayACGvgZ",
-                "mangledName": "$s19SettingsUI_Internal11_AppearanceO8allCasesSayACGvgZ",
-                "moduleName": "SettingsUI_Internal",
-                "static": true,
                 "implicit": true,
                 "accessorKind": "get"
               }
@@ -2364,9 +2495,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "_Appearance",
-                    "printedName": "SettingsUI_Internal._Appearance",
-                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               }
@@ -2560,25 +2691,220 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AccentColorNavLink",
-        "printedName": "AccentColorNavLink",
+        "name": "_SettingsNavigationLink",
+        "printedName": "_SettingsNavigationLink",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(sfSymbol:symbolTint:title:subtitle:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AccentColorNavLink",
-                "printedName": "SettingsUI_Internal.AccentColorNavLink",
-                "usr": "s:19SettingsUI_Internal18AccentColorNavLinkV"
+                "name": "_SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal18AccentColorNavLinkVACycfc",
-            "mangledName": "$s19SettingsUI_Internal18AccentColorNavLinkVACycfc",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACyxGSS_xS2SSgtcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACyxGSS_xS2SSgtcfc",
             "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accentColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV11accentColorACyxGx_tcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV11accentColorACyxGx_tcfc",
+            "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(recentlyDeleted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV15recentlyDeletedACyxGx_tcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV15recentlyDeletedACyxGx_tcfc",
+            "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manageTags:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV10manageTagsACyxGx_tcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV10manageTagsACyxGx_tcfc",
+            "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appearance:symbolTint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_Appearance",
+                "printedName": "SettingsUI_Internal._Appearance",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV10appearance10symbolTintACyxGAA11_AppearanceO_xtcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV10appearance10symbolTintACyxGAA11_AppearanceO_xtcfc",
+            "moduleName": "SettingsUI_Internal",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2606,8 +2932,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvp",
+            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvp",
+            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "Preconcurrency",
@@ -2635,489 +2961,22 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvg",
+                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvg",
+                "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvg",
                 "moduleName": "SettingsUI_Internal",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+                "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
                 "accessorKind": "get"
               }
             ]
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal18AccentColorNavLinkV",
-        "mangledName": "$s19SettingsUI_Internal18AccentColorNavLinkV",
+        "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV",
+        "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV",
         "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AppearanceNavLink",
-        "printedName": "AppearanceNavLink",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AppearanceNavLink",
-                "printedName": "SettingsUI_Internal.AppearanceNavLink",
-                "usr": "s:19SettingsUI_Internal17AppearanceNavLinkV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal17AppearanceNavLinkVACycfc",
-            "mangledName": "$s19SettingsUI_Internal17AppearanceNavLinkVACycfc",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvp",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvg",
-                "moduleName": "SettingsUI_Internal",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal17AppearanceNavLinkV",
-        "mangledName": "$s19SettingsUI_Internal17AppearanceNavLinkV",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ManageTagsNavLink",
-        "printedName": "ManageTagsNavLink",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ManageTagsNavLink",
-                "printedName": "SettingsUI_Internal.ManageTagsNavLink",
-                "usr": "s:19SettingsUI_Internal17ManageTagsNavLinkV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal17ManageTagsNavLinkVACycfc",
-            "mangledName": "$s19SettingsUI_Internal17ManageTagsNavLinkVACycfc",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvp",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvg",
-                "moduleName": "SettingsUI_Internal",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal17ManageTagsNavLinkV",
-        "mangledName": "$s19SettingsUI_Internal17ManageTagsNavLinkV",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Internal",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "RecentlyDeletedNavLink",
-        "printedName": "RecentlyDeletedNavLink",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "RecentlyDeletedNavLink",
-                "printedName": "SettingsUI_Internal.RecentlyDeletedNavLink",
-                "usr": "s:19SettingsUI_Internal22RecentlyDeletedNavLinkV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal22RecentlyDeletedNavLinkVACycfc",
-            "mangledName": "$s19SettingsUI_Internal22RecentlyDeletedNavLinkVACycfc",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvp",
-            "moduleName": "SettingsUI_Internal",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvg",
-                "moduleName": "SettingsUI_Internal",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal22RecentlyDeletedNavLinkV",
-        "mangledName": "$s19SettingsUI_Internal22RecentlyDeletedNavLinkV",
-        "moduleName": "SettingsUI_Internal",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
+        "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
         "declAttributes": [
           "Preconcurrency",
           "Custom",
@@ -3203,19 +3062,19 @@
         "children": [
           {
             "kind": "Var",
-            "name": "appearance",
-            "printedName": "appearance",
+            "name": "appearanceID",
+            "printedName": "appearanceID",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_Appearance",
-                "printedName": "SettingsUI_Internal._Appearance",
-                "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvp",
-            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvp",
+            "usr": "s:19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvp",
+            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "Final",
@@ -3230,14 +3089,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "_Appearance",
-                    "printedName": "SettingsUI_Internal._Appearance",
-                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvg",
-                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvg",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvg",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvg",
                 "moduleName": "SettingsUI_Internal",
                 "declAttributes": [
                   "Final"
@@ -3256,14 +3115,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "_Appearance",
-                    "printedName": "SettingsUI_Internal._Appearance",
-                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvs",
-                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvs",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvs",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvs",
                 "moduleName": "SettingsUI_Internal",
                 "declAttributes": [
                   "Final"
@@ -3282,13 +3141,168 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvM",
-                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvM",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvM",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC12appearanceIDSSvM",
                 "moduleName": "SettingsUI_Internal",
                 "declAttributes": [
                   "Final"
                 ],
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accentColorID",
+            "printedName": "accentColorID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvp",
+            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvp",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvg",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvg",
+                "moduleName": "SettingsUI_Internal",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvs",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvs",
+                "moduleName": "SettingsUI_Internal",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvM",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC13accentColorIDSSvM",
+                "moduleName": "SettingsUI_Internal",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accentColorChoices",
+            "printedName": "accentColorChoices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SettingsUI_Internal._AccentColorTint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AccentColorTint",
+                    "printedName": "SettingsUI_Internal._AccentColorTint",
+                    "usr": "s:19SettingsUI_Internal16_AccentColorTintV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal01_A6ValuesC18accentColorChoicesSayAA07_AccentF4TintVGvp",
+            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC18accentColorChoicesSayAA07_AccentF4TintVGvp",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SettingsUI_Internal._AccentColorTint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AccentColorTint",
+                        "printedName": "SettingsUI_Internal._AccentColorTint",
+                        "usr": "s:19SettingsUI_Internal16_AccentColorTintV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC18accentColorChoicesSayAA07_AccentF4TintVGvg",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC18accentColorChoicesSayAA07_AccentF4TintVGvg",
+                "moduleName": "SettingsUI_Internal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
               }
             ]
           },
@@ -3310,7 +3324,6 @@
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "Final",
-              "Custom",
               "AccessControl"
             ],
             "accessors": [
@@ -3334,17 +3347,76 @@
                   "Final"
                 ],
                 "accessorKind": "get"
-              },
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_Appearance",
+                "printedName": "SettingsUI_Internal._Appearance",
+                "usr": "s:19SettingsUI_Internal11_AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvp",
+            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvp",
+            "moduleName": "SettingsUI_Internal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
               {
                 "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
+                    "name": "_Appearance",
+                    "printedName": "SettingsUI_Internal._Appearance",
+                    "usr": "s:19SettingsUI_Internal11_AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvg",
+                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC10appearanceAA11_AppearanceOvg",
+                "moduleName": "SettingsUI_Internal",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(defaults:colorChoices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_SettingsValues",
+                "printedName": "SettingsUI_Internal._SettingsValues",
+                "usr": "s:19SettingsUI_Internal01_A6ValuesC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaults",
+                "printedName": "Foundation.UserDefaults",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSUserDefaults"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SettingsUI_Internal._AccentColorTint]",
+                "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "_AccentColorTint",
@@ -3352,52 +3424,13 @@
                     "usr": "s:19SettingsUI_Internal16_AccentColorTintV"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC11accentColorAA07_AccentF4TintVvs",
-                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC11accentColorAA07_AccentF4TintVvs",
-                "moduleName": "SettingsUI_Internal",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC11accentColorAA07_AccentF4TintVvM",
-                "mangledName": "$s19SettingsUI_Internal01_A6ValuesC11accentColorAA07_AccentF4TintVvM",
-                "moduleName": "SettingsUI_Internal",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "_SettingsValues",
-                "printedName": "SettingsUI_Internal._SettingsValues",
-                "usr": "s:19SettingsUI_Internal01_A6ValuesC"
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A6ValuesCACycfc",
-            "mangledName": "$s19SettingsUI_Internal01_A6ValuesCACycfc",
+            "usr": "s:19SettingsUI_Internal01_A6ValuesC8defaults12colorChoicesACSo14NSUserDefaultsC_SayAA16_AccentColorTintVGtcfc",
+            "mangledName": "$s19SettingsUI_Internal01_A6ValuesC8defaults12colorChoicesACSo14NSUserDefaultsC_SayAA16_AccentColorTintVGtcfc",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "AccessControl"
@@ -3540,6 +3573,100 @@
                 "declKind": "Accessor",
                 "usr": "s:19SettingsUI_Internal14_AppStorageKeyV11accentColorSSvgZ",
                 "mangledName": "$s19SettingsUI_Internal14_AppStorageKeyV11accentColorSSvgZ",
+                "moduleName": "SettingsUI_Internal",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accentColorID",
+            "printedName": "accentColorID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal14_AppStorageKeyV13accentColorIDSSvpZ",
+            "mangledName": "$s19SettingsUI_Internal14_AppStorageKeyV13accentColorIDSSvpZ",
+            "moduleName": "SettingsUI_Internal",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal14_AppStorageKeyV13accentColorIDSSvgZ",
+                "mangledName": "$s19SettingsUI_Internal14_AppStorageKeyV13accentColorIDSSvgZ",
+                "moduleName": "SettingsUI_Internal",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearanceID",
+            "printedName": "appearanceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SettingsUI_Internal14_AppStorageKeyV12appearanceIDSSvpZ",
+            "mangledName": "$s19SettingsUI_Internal14_AppStorageKeyV12appearanceIDSSvpZ",
+            "moduleName": "SettingsUI_Internal",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SettingsUI_Internal14_AppStorageKeyV12appearanceIDSSvgZ",
+                "mangledName": "$s19SettingsUI_Internal14_AppStorageKeyV12appearanceIDSSvgZ",
                 "moduleName": "SettingsUI_Internal",
                 "static": true,
                 "implicit": true,
@@ -3891,226 +4018,352 @@
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/_URLLinkView\/_URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1210,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/_URLLinkView\/_URLLinkView.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
       "length": 10,
       "value": "\"document\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/_URLLinkView\/_URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 1258,
       "length": 67,
       "value": "\"https:\/\/www.apple.com\/legal\/internet-services\/itunes\/dev\/stdeula\/\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/_URLLinkView\/_URLLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 1189,
+      "offset": 1334,
       "length": 17,
       "value": "\"Entwicklerseite\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1247,
+      "length": 14,
+      "value": "\"Blue Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
       "length": 19,
       "value": "\"Blue Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1229,
+      "offset": 1326,
       "length": 11,
       "value": "\"AppleBlue\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1395,
+      "length": 15,
+      "value": "\"Green Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
       "length": 20,
       "value": "\"Green Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1476,
       "length": 12,
       "value": "\"AppleGreen\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1432,
+      "offset": 1544,
+      "length": 13,
+      "value": "\"Red Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
       "length": 18,
       "value": "\"Red Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 1621,
       "length": 10,
       "value": "\"AppleRed\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1559,
+      "offset": 1690,
+      "length": 16,
+      "value": "\"Purple Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1718,
       "length": 21,
       "value": "\"Purple Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1773,
       "length": 13,
       "value": "\"ApplePurple\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1844,
+      "length": 15,
+      "value": "\"Blush Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1871,
       "length": 20,
       "value": "\"Blush Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1925,
       "length": 12,
       "value": "\"AppleBlush\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1994,
+      "length": 14,
+      "value": "\"Cyan Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2020,
       "length": 19,
       "value": "\"Cyan Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 2073,
       "length": 11,
       "value": "\"AppleCyan\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 1949,
+      "offset": 2143,
+      "length": 16,
+      "value": "\"Indigo Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2171,
       "length": 21,
       "value": "\"Indigo Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2004,
+      "offset": 2226,
       "length": 13,
       "value": "\"AppleIndigo\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2080,
+      "offset": 2296,
+      "length": 14,
+      "value": "\"Mint Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
       "length": 19,
       "value": "\"Mint Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2133,
+      "offset": 2375,
       "length": 11,
       "value": "\"AppleMint\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2209,
+      "offset": 2445,
+      "length": 16,
+      "value": "\"Orange Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2473,
       "length": 21,
       "value": "\"Orange Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2528,
       "length": 13,
       "value": "\"AppleOrange\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2340,
+      "offset": 2598,
+      "length": 14,
+      "value": "\"Pink Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2624,
       "length": 19,
       "value": "\"Pink Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2393,
+      "offset": 2677,
       "length": 11,
       "value": "\"ApplePink\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2745,
+      "length": 14,
+      "value": "\"Teal Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2771,
       "length": 19,
       "value": "\"Teal Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2520,
+      "offset": 2824,
       "length": 11,
       "value": "\"AppleTeal\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
+      "offset": 2894,
+      "length": 16,
+      "value": "\"Yellow Default\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2922,
       "length": 21,
       "value": "\"Yellow Accent Color\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AccentColorTint\/AccentColorTint.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 2977,
       "length": 13,
       "value": "\"AppleYellow\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/Appearance\/AppearancePickerLabel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1269,
+      "offset": 1663,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/Appearance\/AppearancePickerLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1371,
+      "offset": 1765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/Appearance\/AppearancePickerLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1449,
+      "offset": 1843,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/Appearance\/AppearancePickerLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1543,
+      "offset": 1937,
       "length": 5,
       "value": "false"
     },
     {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/SettingsNavLinks\/SettingsNavigationLink.swift",
+      "kind": "StringLiteral",
+      "offset": 3075,
+      "length": 6,
+      "value": "\"Test\""
+    },
+    {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/WrapHStack\/WrapHstack.swift",
       "kind": "IntegerLiteral",
-      "offset": 205,
+      "offset": 200,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/WrapHStack\/WrapHstack.swift",
+      "kind": "Array",
+      "offset": 257,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/WrapHStack\/WrapHstack.swift",
+      "kind": "Array",
+      "offset": 288,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/WrapHStack\/WrapHstack.swift",
+      "kind": "Array",
+      "offset": 356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/WrapHStack\/WrapHstack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AppStorageKey.swift",
@@ -4125,6 +4378,20 @@
       "offset": 256,
       "length": 16,
       "value": "\"AccentColorKey\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AppStorageKey.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 18,
+      "value": "\"AccentColorIDKey\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/AppStorageKey.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 17,
+      "value": "\"AppearanceIDKey\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/Library\/Developer\/Xcode\/DerivedData\/SettingsUI_Internal-evnqypmroatgovcjgxosvfdvnejp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SettingsUI_Internal\/IntermediateBuildFilesPath\/SettingsUI_Internal.build\/Release-iphoneos\/SettingsUI_Internal.build\/DerivedSources\/GeneratedAssetSymbols.swift",

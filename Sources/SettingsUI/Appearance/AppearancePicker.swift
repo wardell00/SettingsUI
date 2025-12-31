@@ -19,5 +19,7 @@ public struct Appearancepicker: View {
 
 #Preview {
     @Previewable @State var vm = SettingsValues.init()
-    Appearancepicker().environment(vm)
+    Appearancepicker()
+        .changeAppearance()
+        .environment(vm)
 }

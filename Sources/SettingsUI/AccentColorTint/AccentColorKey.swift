@@ -7,28 +7,25 @@
 
 import SwiftUI
 
-public struct AccentColorKey: EnvironmentKey {
+public struct AccentColorIDKey: EnvironmentKey {
     
-    public static var defaultValue: AccentColorTint {
+    public static var defaultValue: String {
         
-        if let raw = UserDefaults.standard.data(forKey: AppStorageKey.accentColor),
-           let value = try? JSONDecoder().decode(AccentColorTint.self, from: raw) {
-            return value
+        if let colorID = UserDefaults.standard.string(forKey: AppStorageKey.accentColorID) {
+            return colorID
         }
-        return .blue
+        return AccentColorTint.blue.id
     }
 }
 
 public extension EnvironmentValues {
     
-    var accentColor: AccentColorTint {
-        get {
-            self[AccentColorKey.self]
-        } set {
-            self[AccentColorKey.self] = newValue
-            if let data = try? JSONEncoder().encode(newValue) {
-                UserDefaults.standard.set(data, forKey: AppStorageKey.accentColor)
-            }
-        }
+    var accentColorID: String {
+        get { self[AccentColorIDKey.self] }
+        set { self[AccentColorIDKey.self] = newValue }
+    }
+    
+    var accentColorTint: AccentColorTint {
+        AccentColorTint.allCases.first(where: { $0.id == accentColorID }) ?? .blue
     }
 }
