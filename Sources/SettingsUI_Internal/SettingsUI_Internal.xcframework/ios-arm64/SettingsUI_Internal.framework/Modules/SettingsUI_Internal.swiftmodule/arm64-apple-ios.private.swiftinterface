@@ -11,15 +11,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct _URLLink : Swift.Identifiable {
-  public let id: Foundation.UUID
+  public let id: Swift.AnyHashable
   public let systemImage: Swift.String
   public let url: Foundation.URL?
   public let text: SwiftUICore.LocalizedStringKey
   public let color: SwiftUICore.Color
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public init<ID>(id: ID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color) where ID : Swift.Hashable
   #endif
-  public typealias ID = Foundation.UUID
+  public typealias ID = Swift.AnyHashable
 }
 @_Concurrency.MainActor @preconcurrency public struct _URLLinkView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(urlLink: SettingsUI_Internal._URLLink)
@@ -38,10 +38,9 @@ public struct _URLLink : Swift.Identifiable {
 }
 
 public struct _AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
-  public var id: Swift.String {
-    get
-  }
-  public init(titleKey: Swift.String, colorName: Swift.String)
+  public var id: Swift.String
+  public init(id: Swift.String, titleKey: Swift.String, colorName: Swift.String)
+  public init(id: Swift.String, titleKey: Swift.String, colorHex: Swift.String)
   public init(titleKey: Swift.String, colorHex: Swift.String)
   public var title: SwiftUICore.LocalizedStringKey {
     get
@@ -84,13 +83,16 @@ extension SwiftUICore.Color {
 }
 
 @frozen public enum _Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
-  public var id: SettingsUI_Internal._Appearance {
+  public var id: Swift.String {
     get
   }
   case Dark
   case Light
   case System
-  public var image: SwiftUICore.Image {
+  public var image: Swift.String {
+    get
+  }
+  public var imageColor: SwiftUICore.Color {
     get
   }
   public var text: Swift.String {
@@ -100,7 +102,7 @@ extension SwiftUICore.Color {
   public init?(rawValue: Swift.String)
   #endif
   public typealias AllCases = [SettingsUI_Internal._Appearance]
-  public typealias ID = SettingsUI_Internal._Appearance
+  public typealias ID = Swift.String
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [SettingsUI_Internal._Appearance] {
     get
@@ -120,50 +122,39 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func _changeAppearance() -> some SwiftUICore.View
   
 }
-@_Concurrency.MainActor @preconcurrency public struct AccentColorNavLink : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init()
+@_Concurrency.MainActor @preconcurrency public struct SettingsNavigationLink : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(sfSymbol: Swift.String, symbolTint: some ShapeStyle, title: Swift.String, subtitle: Swift.String? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public init(accentColor: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(recentlyDeleted: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(manageTags: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(appearance: SettingsUI_Internal._Appearance, symbolTint: some ShapeStyle)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal18AccentColorNavLinkV4bodyQrvp", 0) __
-}
-
-@_Concurrency.MainActor @preconcurrency public struct AppearanceNavLink : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init()
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal17AppearanceNavLinkV4bodyQrvp", 0) __
-}
-
-@_Concurrency.MainActor @preconcurrency public struct ManageTagsNavLink : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init()
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal17ManageTagsNavLinkV4bodyQrvp", 0) __
-}
-
-@_Concurrency.MainActor @preconcurrency public struct RecentlyDeletedNavLink : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init()
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal22RecentlyDeletedNavLinkV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal0A14NavigationLinkV4bodyQrvp", 0) __
 }
 
 final public class _SettingsValues {
-  final public var appearance: SettingsUI_Internal._Appearance {
+  final public var appearanceID: Swift.String {
     get
     set
     _modify
   }
+  final public var accentColorID: Swift.String {
+    get
+    set
+    _modify
+  }
+  final public let accentColorChoices: [SettingsUI_Internal._AccentColorTint]
   final public var accentColor: SettingsUI_Internal._AccentColorTint {
     get
-    set
-    _modify
   }
-  public init()
+  final public var appearance: SettingsUI_Internal._Appearance {
+    get
+  }
+  public init(defaults: Foundation.UserDefaults = .standard, colorChoices: [SettingsUI_Internal._AccentColorTint] = _AccentColorTint.allCases)
   @objc deinit
 }
 extension SettingsUI_Internal._SettingsValues : nonisolated Observation.Observable {
@@ -171,6 +162,8 @@ extension SettingsUI_Internal._SettingsValues : nonisolated Observation.Observab
 public struct _AppStorageKey {
   public static let appearance: Swift.String
   public static let accentColor: Swift.String
+  public static let accentColorID: Swift.String
+  public static let appearanceID: Swift.String
 }
 extension SettingsUI_Internal._URLLinkView : Swift.Sendable {}
 extension SettingsUI_Internal._AccentColorThemePicker : Swift.Sendable {}
@@ -181,7 +174,4 @@ extension SettingsUI_Internal._Appearance : Swift.RawRepresentable {}
 extension SettingsUI_Internal._Appearance : Swift.Sendable {}
 extension SettingsUI_Internal._Appearance : Swift.BitwiseCopyable {}
 extension SettingsUI_Internal.PreferredColorScheme : Swift.Sendable {}
-extension SettingsUI_Internal.AccentColorNavLink : Swift.Sendable {}
-extension SettingsUI_Internal.AppearanceNavLink : Swift.Sendable {}
-extension SettingsUI_Internal.ManageTagsNavLink : Swift.Sendable {}
-extension SettingsUI_Internal.RecentlyDeletedNavLink : Swift.Sendable {}
+extension SettingsUI_Internal.SettingsNavigationLink : Swift.Sendable {}
