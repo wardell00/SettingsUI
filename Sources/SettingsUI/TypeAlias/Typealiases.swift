@@ -13,4 +13,4 @@ public typealias AccentColorTint = _AccentColorTint
 public typealias Appearance = _Appearance
 public typealias SettingsValues = _SettingsValues
 public typealias AppStorageKey = _AppStorageKey
-public typealias SettingsNavigationLink = _SettingsNavigationLink
+public typealias SettingsNavLink = SettingsNavigationLink

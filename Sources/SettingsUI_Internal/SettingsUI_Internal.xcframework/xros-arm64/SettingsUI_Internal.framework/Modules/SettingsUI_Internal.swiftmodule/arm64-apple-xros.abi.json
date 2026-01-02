@@ -2691,8 +2691,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "_SettingsNavigationLink",
-        "printedName": "_SettingsNavigationLink",
+        "name": "SettingsNavigationLink",
+        "printedName": "SettingsNavigationLink",
         "children": [
           {
             "kind": "Constructor",
@@ -2701,16 +2701,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_SettingsNavigationLink",
-                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+                "name": "SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal.SettingsNavigationLink",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV"
               },
               {
                 "kind": "TypeNominal",
@@ -2746,11 +2739,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACyxGSS_xS2SSgtcfc",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACyxGSS_xS2SSgtcfc",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACSS_xS2SSgtc05SwiftB010ShapeStyleRzlufc",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV8sfSymbol10symbolTint5title8subtitleACSS_xS2SSgtc05SwiftB010ShapeStyleRzlufc",
             "moduleName": "SettingsUI_Internal",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2765,16 +2757,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_SettingsNavigationLink",
-                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+                "name": "SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal.SettingsNavigationLink",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV"
               },
               {
                 "kind": "TypeNominal",
@@ -2783,11 +2768,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV11accentColorACyxGx_tcfc",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV11accentColorACyxGx_tcfc",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV11accentColorACx_tc05SwiftB010ShapeStyleRzlufc",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV11accentColorACx_tc05SwiftB010ShapeStyleRzlufc",
             "moduleName": "SettingsUI_Internal",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2802,16 +2786,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_SettingsNavigationLink",
-                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+                "name": "SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal.SettingsNavigationLink",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV"
               },
               {
                 "kind": "TypeNominal",
@@ -2820,11 +2797,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV15recentlyDeletedACyxGx_tcfc",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV15recentlyDeletedACyxGx_tcfc",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV15recentlyDeletedACx_tc05SwiftB010ShapeStyleRzlufc",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV15recentlyDeletedACx_tc05SwiftB010ShapeStyleRzlufc",
             "moduleName": "SettingsUI_Internal",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2839,16 +2815,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_SettingsNavigationLink",
-                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+                "name": "SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal.SettingsNavigationLink",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV"
               },
               {
                 "kind": "TypeNominal",
@@ -2857,11 +2826,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV10manageTagsACyxGx_tcfc",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV10manageTagsACyxGx_tcfc",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV10manageTagsACx_tc05SwiftB010ShapeStyleRzlufc",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV10manageTagsACx_tc05SwiftB010ShapeStyleRzlufc",
             "moduleName": "SettingsUI_Internal",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2876,16 +2844,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_SettingsNavigationLink",
-                "printedName": "SettingsUI_Internal._SettingsNavigationLink<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV"
+                "name": "SettingsNavigationLink",
+                "printedName": "SettingsUI_Internal.SettingsNavigationLink",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV"
               },
               {
                 "kind": "TypeNominal",
@@ -2900,11 +2861,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV10appearance10symbolTintACyxGAA11_AppearanceO_xtcfc",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV10appearance10symbolTintACyxGAA11_AppearanceO_xtcfc",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV10appearance10symbolTintAcA11_AppearanceO_xtc05SwiftB010ShapeStyleRzlufc",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV10appearance10symbolTintAcA11_AppearanceO_xtc05SwiftB010ShapeStyleRzlufc",
             "moduleName": "SettingsUI_Internal",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-            "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2932,8 +2892,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvp",
-            "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvp",
+            "usr": "s:19SettingsUI_Internal0A14NavigationLinkV4bodyQrvp",
+            "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV4bodyQrvp",
             "moduleName": "SettingsUI_Internal",
             "declAttributes": [
               "Preconcurrency",
@@ -2961,22 +2921,18 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvg",
-                "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvg",
+                "usr": "s:19SettingsUI_Internal0A14NavigationLinkV4bodyQrvg",
+                "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV4bodyQrvg",
                 "moduleName": "SettingsUI_Internal",
-                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-                "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
                 "accessorKind": "get"
               }
             ]
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19SettingsUI_Internal01_A14NavigationLinkV",
-        "mangledName": "$s19SettingsUI_Internal01_A14NavigationLinkV",
+        "usr": "s:19SettingsUI_Internal0A14NavigationLinkV",
+        "mangledName": "$s19SettingsUI_Internal0A14NavigationLinkV",
         "moduleName": "SettingsUI_Internal",
-        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.ShapeStyle>",
-        "sugared_genericSig": "<T where T : SwiftUI.ShapeStyle>",
         "declAttributes": [
           "Preconcurrency",
           "Custom",
@@ -4326,7 +4282,7 @@
     {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Internal\/SettingsUI_Internal\/SettingsNavLinks\/SettingsNavigationLink.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 3152,
       "length": 6,
       "value": "\"Test\""
     },

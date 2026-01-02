@@ -122,18 +122,18 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func _changeAppearance() -> some SwiftUICore.View
   
 }
-@_Concurrency.MainActor @preconcurrency public struct _SettingsNavigationLink<T> : SwiftUICore.View where T : SwiftUICore.ShapeStyle {
+@_Concurrency.MainActor @preconcurrency public struct SettingsNavigationLink : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(sfSymbol: Swift.String, symbolTint: T, title: Swift.String, subtitle: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(sfSymbol: Swift.String, symbolTint: some ShapeStyle, title: Swift.String, subtitle: Swift.String? = nil)
   #endif
-  @_Concurrency.MainActor @preconcurrency public init(accentColor: T)
-  @_Concurrency.MainActor @preconcurrency public init(recentlyDeleted: T)
-  @_Concurrency.MainActor @preconcurrency public init(manageTags: T)
-  @_Concurrency.MainActor @preconcurrency public init(appearance: SettingsUI_Internal._Appearance, symbolTint: T)
+  @_Concurrency.MainActor @preconcurrency public init(accentColor: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(recentlyDeleted: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(manageTags: some ShapeStyle)
+  @_Concurrency.MainActor @preconcurrency public init(appearance: SettingsUI_Internal._Appearance, symbolTint: some ShapeStyle)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal01_A14NavigationLinkV4bodyQrvp", 0) __<T>
+  public typealias Body = @_opaqueReturnTypeOf("$s19SettingsUI_Internal0A14NavigationLinkV4bodyQrvp", 0) __
 }
 
 final public class _SettingsValues {
@@ -174,4 +174,4 @@ extension SettingsUI_Internal._Appearance : Swift.RawRepresentable {}
 extension SettingsUI_Internal._Appearance : Swift.Sendable {}
 extension SettingsUI_Internal._Appearance : Swift.BitwiseCopyable {}
 extension SettingsUI_Internal.PreferredColorScheme : Swift.Sendable {}
-extension SettingsUI_Internal._SettingsNavigationLink : Swift.Sendable {}
+extension SettingsUI_Internal.SettingsNavigationLink : Swift.Sendable {}
